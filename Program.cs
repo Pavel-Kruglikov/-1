@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace task_1
+
+namespace task11
 {
     class Program
     {
@@ -13,13 +14,21 @@ namespace task_1
             Console.WriteLine("Enter string");
             enterString = Console.ReadLine();
             string[] words = enterString.Split(' ');
-            Array.Reverse(words);
-            Console.WriteLine("Revered string");
-            foreach (string word in words)
+
+            Console.WriteLine();
+            for (int i = 0; i < words.Length; i++)
             {
-                Console.WriteLine(word);
+                if (char.IsPunctuation(words[i], words[i].Length - 1) == true)
+                {
+                    Console.Write(words[i][words[i].Length - 1] + words[i]);
+                }
+                else
+                {
+                    Console.Write(words[i]);
+                }
             }
-            Console.ReadKey();
+            Console.Read();
+
         }
     }
 }
