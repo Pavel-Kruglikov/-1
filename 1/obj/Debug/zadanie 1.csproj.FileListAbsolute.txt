@@ -1,0 +1,6 @@
+D:\labi\С#\laba2\zadanie 1\zadanie 1\bin\Debug\zadanie 1.exe.config
+D:\labi\С#\laba2\zadanie 1\zadanie 1\bin\Debug\zadanie 1.exe
+D:\labi\С#\laba2\zadanie 1\zadanie 1\bin\Debug\zadanie 1.pdb
+D:\labi\С#\laba2\zadanie 1\zadanie 1\obj\Debug\zadanie 1.csprojResolveAssemblyReference.cache
+D:\labi\С#\laba2\zadanie 1\zadanie 1\obj\Debug\zadanie 1.exe
+D:\labi\С#\laba2\zadanie 1\zadanie 1\obj\Debug\zadanie 1.pdb
