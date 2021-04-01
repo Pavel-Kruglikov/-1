@@ -22,17 +22,17 @@ namespace ConsoleApplication1
             face[7] = " |                                                |";
             face[8] = " |                                                |";
             face[9] = " |                                                |";
-            face[10]= " |                                                |";
-            face[11]= " |                                                |";
-            face[12]= " |                                                |";
-            face[13]= " |                                                |";
-            face[14]= " |                                                | ";
-            face[15]= " |                                                |";
-            face[16]= " |                                                |";
-            face[17]= " |                                                |";
-            face[18]= " ------------------------------------------------";
-            face[19]= " |                                                |";
-            face[20]= " ------------------------------------------------";
+            face[10] = " |                                                |";
+            face[11] = " |                                                |";
+            face[12] = " |                                                |";
+            face[13] = " |                                                |";
+            face[14] = " |                                                | ";
+            face[15] = " |                                                |";
+            face[16] = " |                                                |";
+            face[17] = " |                                                |";
+            face[18] = " ------------------------------------------------";
+            face[19] = " |                                                |";
+            face[20] = " ------------------------------------------------";
         }
         public void Draw()  //function to draw an empty field
         {
@@ -60,7 +60,6 @@ namespace ConsoleApplication1
             Object game = new Object();
             while (keyCode.Key != ConsoleKey.Escape)
             {
-                Console.Clear();
                 iFace.Draw();
                 Console.SetCursorPosition(13, 6);
                 game.user = Console.ReadLine();
