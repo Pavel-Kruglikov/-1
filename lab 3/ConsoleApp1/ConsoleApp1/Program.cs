@@ -77,14 +77,14 @@ namespace ConsoleApp20
             {
                 new Transport(),
                 new Transport(32, "Germany"),
-                new Transport(1234, 345, "USA")
+                new Transport(1234, 345, "Austria")
             };
                 while (true)
                 {
                     Console.WriteLine("1.Print all\n" +
                                       "2.Add new transport\n" +
                                       "3.Delete transport by index\n" +
-                                      "4.Exit");
+                                      "4.Exit");//menu
                     if (int.TryParse(Console.ReadLine(), out int option) && option >= 1 && option <= 4)
                     {
                         switch (option)
