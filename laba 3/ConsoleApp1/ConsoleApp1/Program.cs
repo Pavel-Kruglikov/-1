@@ -17,16 +17,24 @@ namespace Lab3Task1
         public double length { get; set; }
         public int maxSpeed { get; set; }
         public typeTransport type { get; set; }
+        public double cost { set; get; }
+        public DateTime year { get; set; }
+        public int passengers { get; set; }
         public enum typeTransport
         {
-            air = 1,
+            land = 1,
             water = 2,
-            space = 3,
-            land = 4
+            air = 3,
+            space = 4
         }
-        public int passengers { get; set; }
-        public DateTime year { get; set; }
-        public double cost { set; get; }
+        public Transport(string newName, int newWeight, double newWidth, double newLength, int newMaxSpeed, typeTransport newType,
+                            int newPassengers, DateTime newYear, double newCost)
+            : this(newName, newWeight, newWidth, newLength, newMaxSpeed, newType)
+        {
+            passengers = newPassengers;
+            year = newYear;
+            cost = newCost;
+        }
         public Transport(string newName, int newWeight, double newWidth, double newLength, int newMaxSpeed, typeTransport newType)
         {
             name = newName;
@@ -41,14 +49,6 @@ namespace Lab3Task1
             year = new DateTime(1);
             cost = -1;
             passengers = -1;
-        }
-        public Transport(string newName, int newWeight, double newWidth, double newLength, int newMaxSpeed, typeTransport newType,
-                            int newPassengers, DateTime newYear, double newCost)
-            : this(newName, newWeight, newWidth, newLength, newMaxSpeed, newType)
-        {
-            passengers = newPassengers;
-            year = newYear;
-            cost = newCost;
         }
         public void outInfo()
         {
@@ -87,6 +87,50 @@ namespace Lab3Task1
             DateTime newYear = new DateTime(GetInt("Year\n"));
             double newCost = GetDouble("Cost:\n");
             transports.Add(new Transport(newName, newWeight, newWidth, newLength, newMaxSpeed, newType, newPassengers, newYear, newCost));
+        }
+        static int GetInt(string s)
+        {
+            bool flag = true;
+            int res = 0;
+            string input;
+            while (flag)
+            {
+                flag = false;
+                Console.WriteLine(s);
+                input = Console.ReadLine();
+                try
+                {
+                    res = Convert.ToInt32(input);
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Wrong input.Try again.");
+                    flag = true;
+                }
+            }
+            return res;
+        }
+        static double GetDouble(string s)
+        {
+            bool flag = true;
+            double res = 0;
+            string input;
+            while (flag)
+            {
+                flag = false;
+                Console.WriteLine(s);
+                input = Console.ReadLine();
+                try
+                {
+                    res = Convert.ToDouble(input);
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Wrong input.Try again.");
+                    flag = true;
+                }
+            }
+            return res;
         }
         static void changeInfo(int index)
         {
@@ -144,50 +188,6 @@ namespace Lab3Task1
             {
                 transports[index].cost = GetDouble("Cost:\n");
             }
-        }
-        static int GetInt(string s)
-        {
-            bool flag = true;
-            int res = 0;
-            string input;
-            while (flag)
-            {
-                flag = false;
-                Console.WriteLine(s);
-                input = Console.ReadLine();
-                try
-                {
-                    res = Convert.ToInt32(input);
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine("Wrong input.Try again.");
-                    flag = true;
-                }
-            }
-            return res;
-        }
-        static double GetDouble(string s)
-        {
-            bool flag = true;
-            double res = 0;
-            string input;
-            while (flag)
-            {
-                flag = false;
-                Console.WriteLine(s);
-                input = Console.ReadLine();
-                try
-                {
-                    res = Convert.ToDouble(input);
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine("Wrong input.Try again.");
-                    flag = true;
-                }
-            }
-            return res;
         }
         static new Transport.typeTransport GetType()
         {
