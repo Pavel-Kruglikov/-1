@@ -1,0 +1,13 @@
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\bin\Debug\netcoreapp3.1\FourthLabNumberOne.exe
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\bin\Debug\netcoreapp3.1\FourthLabNumberOne.deps.json
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\bin\Debug\netcoreapp3.1\FourthLabNumberOne.runtimeconfig.json
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\bin\Debug\netcoreapp3.1\FourthLabNumberOne.runtimeconfig.dev.json
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\bin\Debug\netcoreapp3.1\FourthLabNumberOne.dll
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\bin\Debug\netcoreapp3.1\FourthLabNumberOne.pdb
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\obj\Debug\netcoreapp3.1\FourthLabNumberOne.csprojAssemblyReference.cache
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\obj\Debug\netcoreapp3.1\FourthLabNumberOne.csproj.CoreCompileInputs.cache
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\obj\Debug\netcoreapp3.1\FourthLabNumberOne.AssemblyInfoInputs.cache
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\obj\Debug\netcoreapp3.1\FourthLabNumberOne.AssemblyInfo.cs
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\obj\Debug\netcoreapp3.1\FourthLabNumberOne.dll
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\obj\Debug\netcoreapp3.1\FourthLabNumberOne.pdb
+C:\Ruslan\2sem\c# ucheba\4lab\FourthLabNumberOne\FourthLabNumberOne\obj\Debug\netcoreapp3.1\FourthLabNumberOne.genruntimeconfig.cache

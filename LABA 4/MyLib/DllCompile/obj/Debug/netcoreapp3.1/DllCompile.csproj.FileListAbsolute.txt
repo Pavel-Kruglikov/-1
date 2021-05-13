@@ -1,0 +1,9 @@
+C:\Ruslan\2sem\c# ucheba\4lab\DllCompile\DllCompile\bin\Debug\netcoreapp3.1\DllCompile.deps.json
+C:\Ruslan\2sem\c# ucheba\4lab\DllCompile\DllCompile\bin\Debug\netcoreapp3.1\DllCompile.dll
+C:\Ruslan\2sem\c# ucheba\4lab\DllCompile\DllCompile\bin\Debug\netcoreapp3.1\DllCompile.pdb
+C:\Ruslan\2sem\c# ucheba\4lab\DllCompile\DllCompile\obj\Debug\netcoreapp3.1\DllCompile.csprojAssemblyReference.cache
+C:\Ruslan\2sem\c# ucheba\4lab\DllCompile\DllCompile\obj\Debug\netcoreapp3.1\DllCompile.csproj.CoreCompileInputs.cache
+C:\Ruslan\2sem\c# ucheba\4lab\DllCompile\DllCompile\obj\Debug\netcoreapp3.1\DllCompile.AssemblyInfoInputs.cache
+C:\Ruslan\2sem\c# ucheba\4lab\DllCompile\DllCompile\obj\Debug\netcoreapp3.1\DllCompile.AssemblyInfo.cs
+C:\Ruslan\2sem\c# ucheba\4lab\DllCompile\DllCompile\obj\Debug\netcoreapp3.1\DllCompile.dll
+C:\Ruslan\2sem\c# ucheba\4lab\DllCompile\DllCompile\obj\Debug\netcoreapp3.1\DllCompile.pdb
